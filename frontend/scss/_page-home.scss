@@ -167,8 +167,8 @@
       radial-gradient(circle,rgba(2, 0, 36, 1) 0%, rgba(101, 116, 235, 1) 0%, rgba(0, 20, 120, 1) 70%);
     background-repeat: no-repeat, no-repeat, no-repeat;
     background-color: #0C0818;
-    background-position: 45% 250%, center, center;
-    background-size: 80%, cover, cover;;
+    background-position: 45% 170px, center, center;
+    background-size: 95%, cover, cover;;
     overflow: hidden;
     position: relative;
 
@@ -183,8 +183,6 @@
       background-size: 550px, cover;
     }
 
-    
-    
     &__platform-height {
       width: 100%;
       @media screen and (min-width: 1400px){
