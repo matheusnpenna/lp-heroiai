@@ -14,7 +14,6 @@ if (openModalButtons && openModalButtons.length) {
     btn.addEventListener("click", () => {
       modalOverlay.classList.remove("hidden");
       const url = btn.getAttribute('data-href');
-      console.log("[DEBUG] GET URL", url)
       if (url) {
         const iframe = document.createElement('iframe');
         iframe.id = iframeId;
